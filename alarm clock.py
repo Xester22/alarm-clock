@@ -34,7 +34,7 @@ frame.pack()
 
 hour = StringVar(root)
 hours = (
-    "00",
+    "00",,
     "01",
     "02",
     "03",
@@ -207,3 +207,4 @@ secs.pack(side=LEFT)
 Button(root, text="Set Alarm", font=("Helvetica 15"), command=Threading).pack(pady=20)
 
 root.mainloop()
+#/user/pythonscript
