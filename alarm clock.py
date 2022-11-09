@@ -64,7 +64,7 @@ hour.set(hours[0])
 
 hrs = OptionMenu(frame, hour, *hours)
 hrs.pack(side=LEFT)
-
+# hrs.config(width=10)
 minute = StringVar(root)
 minutes = (
     "00",
